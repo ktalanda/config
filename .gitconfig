@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	undo = reset --soft HEAD^
+	l = log --pretty=format:'%C(auto,yellow)%h %Cred%ad %Cgreen%s | %Creset%an' --date=short
+[user]
+	name = kamil
+	email = kamil0916@gmail.com
