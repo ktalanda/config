@@ -1,4 +1,4 @@
-export ZSH="/Users/kamil.talanda/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 export USER=""
 export PATH=~/Library/Python/2.7/bin:$PATH
 export PATH=~/.fastlane/bin:$PATH
@@ -9,6 +9,7 @@ ZSH_THEME="agnoster"
 
 plugins=(
   git,
+  zsh-completions,
   zsh-autosuggestions
 )
 
