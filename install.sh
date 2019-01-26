@@ -22,17 +22,21 @@ chmod +x ./config/config.sh
 brew cask install slack
 # snappy - AppStore
 brew cask install kap
+# one-password - AppStore
+# magnet - AppStore
+# flux - website
+# spark - AppStore
+# istat - website
 
-brew install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+nvm install 8
+brew install awsebcli
+npm install -g firebase-tools
 
-# magnet
-# one-password
-# flux
-# xcode
-# android studio
-# web-storm
-# data-grip
-# code
-# spark
-# istat
+# xcode - AppStore
+# android studio - website
+brew cask install webstorm
+# data-grip - website
+
+
 # vs-code
